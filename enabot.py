@@ -12,8 +12,8 @@ app = Client(
 
 async def start_message():
     await app.start()
-    await app.send_message(chat_id = -1001494065075, text='Здарова, Евафаги' )
-#app.run(start_message())
+    await app.send_message(chat_id = -1001494065075, text='Здарова' )
+app.run(start_message())
 
 @app.on_message(filters.command(["start", "help"]))
 async def my_handler(сlient, message):
