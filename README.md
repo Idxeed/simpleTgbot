@@ -1,0 +1,2 @@
+# simpleTgbot
+simple telegram bot 
